@@ -3,7 +3,6 @@ import {
   Collection,
   Entity,
   OneToMany,
-  PrimaryKey,
   Property,
   Unique,
 } from '@mikro-orm/core'
