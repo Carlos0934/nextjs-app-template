@@ -17,6 +17,7 @@
     "@mikro-orm/postgresql": "^5.1.2",
     "@next-auth/mikro-orm-adapter": "^2.0.1",
     "next": "12.1.5",
+  
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-hook-form": "^7.30.0",
@@ -24,6 +25,7 @@
     "zod": "^3.14.4"
   },
   "devDependencies": {
+      "playwright": "^1.21.1",
     "@playwright/test": "^1.21.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
