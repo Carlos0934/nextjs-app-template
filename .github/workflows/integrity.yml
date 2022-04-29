@@ -29,8 +29,8 @@ jobs:
 
       - name: End to end tests
         run: | 
-          npm run start
-          npm run test:e2e &
+          npm run start &
+          npm run test:e2e 
 
 
 
