@@ -21,11 +21,15 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      - name: Tests
+      - name: Unit tests
         run: npm run test
 
       - name: Build
         run: npm run build
+
+      - name: End to end tests
+        run: npm run start &&  npm run test:e2e
+
 
 
       
